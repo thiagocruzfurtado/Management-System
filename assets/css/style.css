@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
 
 :root{
-    --dark: #423e2b;
+    --dark: #2b2d42;
     --light: #adb5bd;
     --border: #dee2e6;
     --border-btn: #edf2f4;
@@ -43,7 +43,7 @@ a {
 
 .border-shadow{
     border: 1px solid var(--border-btn);
-    box-shadow: 1px 3px 10px #030303;
+    box-shadow: 1px 3px 10px #e9ecef;
 }
 
 .text-dark{
@@ -59,7 +59,7 @@ a {
 }
 
 .text-gradient{
-    background: linear-gradient(to right, #e7b429, #085c0d);
+    background: linear-gradient(to right, #2fe729, #085c0d);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
